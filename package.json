@@ -38,5 +38,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/keaiw/dft.git",
+  "author": "keaiw <et325burvgxyxqfly9m6uu8p@gmail.com>",
+  "license": "MIT"
 }
