@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld v-bind:title="message" v-bind:num="num"/>
 </template>
 
 <script>
@@ -10,6 +10,12 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  data() {
+    return {
+      message: 'value',
+      num: 'abc',
+    }
   }
 }
 </script>
